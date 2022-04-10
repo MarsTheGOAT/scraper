@@ -46,7 +46,6 @@ def category_scrape(url):
     gender = path[0]
     second_hand = False
     category = []
-    print(urls)
     for url in urls:
         product_url = url
         try:
